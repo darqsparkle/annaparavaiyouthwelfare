@@ -7,7 +7,7 @@ import DonateModal from "./DonateModal";
 import logo from "../assets/logo.png";
 
 export default function Navbar() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const [donateOpen, setDonateOpen] = useState(false);
@@ -35,26 +35,32 @@ export default function Navbar() {
     setDonateOpen(true);
   };
 
+  // Compact mobile-only language toggle: shows the OTHER language's short code,
+  // tapping switches to it. Adjust the "ta"/"en" codes and labels to match your i18n setup.
+  const isTamil = i18n.language?.startsWith("ta");
+  const toggleLang = () => i18n.changeLanguage(isTamil ? "en" : "ta");
+  const langLabel = isTamil ? "E" : "த";
+
   return (
     <header
-      className={`sticky top-0 z-50 transition-all duration-300 ${
+      className={`sticky top-0 z-50 w-full overflow-x-hidden transition-all duration-300 ${
         scrolled ? "bg-bg/95 backdrop-blur shadow-[0_1px_0_0_rgba(27,94,32,0.12)]" : "bg-bg/70 backdrop-blur-sm"
       }`}
     >
       {/* seal-ring accent strip */}
       <div className="h-[3px] w-full seal-ring" />
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-3 lg:px-8">
-        <NavLink to="/" className="flex items-center gap-3 shrink-0">
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-2 px-3 py-2 sm:gap-4 sm:px-5 sm:py-3 lg:px-8">
+        <NavLink to="/" className="flex min-w-0 items-center gap-2 sm:gap-3 shrink-0">
           <img
             src={logo}
             alt={t("meta.orgNameShort")}
-            className="h-11 w-11 rounded-full ring-2 ring-gold/60 object-cover"
+            className="h-8 w-8 rounded-full ring-2 ring-gold/60 object-cover sm:h-11 sm:w-11"
           />
-          <div className="leading-tight">
-            <p className="font-display text-[15px] font-bold text-primary sm:text-base">
+          <div className="min-w-0 leading-tight">
+            <p className="truncate font-display text-[13px] font-bold text-primary sm:text-[15px] lg:text-base">
               {t("meta.orgNameShort")}
             </p>
-            <p className="text-[11px] font-medium tracking-wide text-maroon/80">
+            <p className="hidden truncate text-[11px] font-medium tracking-wide text-maroon/80 sm:block">
               {t("meta.tagline")}
             </p>
           </div>
@@ -89,21 +95,28 @@ export default function Navbar() {
           </button>
         </div>
 
-        {/* Mobile: language switcher is now outside the hamburger dropdown, always visible */}
-        <div className="flex items-center gap-2 lg:hidden">
-          <LanguageSwitcher />
+        {/* Mobile: compact language toggle + hamburger, always visible, small footprint */}
+        <div className="flex shrink-0 items-center gap-1.5 lg:hidden">
           <button
-            className="inline-flex items-center justify-center rounded-full p-2 text-primary"
+            type="button"
+            onClick={toggleLang}
+            aria-label="Switch language"
+            className="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-primary/30 text-[11px] font-bold text-primary"
+          >
+            {langLabel}
+          </button>
+          <button
+            className="inline-flex shrink-0 items-center justify-center rounded-full p-1.5 text-primary"
             onClick={() => setOpen((o) => !o)}
             aria-label="Toggle menu"
           >
-            {open ? <X size={24} /> : <Menu size={24} />}
+            {open ? <X size={22} /> : <Menu size={22} />}
           </button>
         </div>
       </div>
 
       {open && (
-        <div className="border-t border-primary/10 bg-bg px-5 pb-5 pt-2 lg:hidden">
+        <div className="border-t border-primary/10 bg-bg px-4 pb-4 pt-2 lg:hidden">
           <nav className="flex flex-col gap-1">
             {links.map((l) => (
               <NavLink
