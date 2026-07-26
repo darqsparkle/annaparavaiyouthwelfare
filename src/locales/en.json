@@ -176,6 +176,16 @@
   "payButton": "Pay {{amount}} via UPI App",
   "thanksNote": "Every contribution directly supports our community programmes. Thank you."
 },
+"quickConnect": {
+  "title": "Reach Us Directly",
+  "subtitle": "Skip the form — connect with us instantly through any of these.",
+  "callTitle": "Call Us",
+  "whatsappTitle": "Chat on WhatsApp",
+  "emailTitle": "Email Us",
+  "donateTitle": "Support Our Work",
+  "donateValue": "Scan & donate via UPI",
+  "note": "Prefer written communication? Email us anytime — we typically respond within 1–2 business days."
+},
   "footer": {
     "about": "A registered youth welfare association from S. Sankaralingapuram, working for education, health, culture and community welfare.",
     "quickLinks": "Quick Links",
