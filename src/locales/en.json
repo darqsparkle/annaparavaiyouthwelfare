@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "orgNameShort": "Annapparavai Ilaignar Nalasangam",
+    "orgNameFull": "Annapparavai Youth Welfare Association",
+    "orgTamilName": "அன்னப்பறவை இளைஞர் நலச்சங்கம்",
+    "village": "S. Sankaralingapuram",
+    "tagline": "Service · Unity · Growth",
+    "regNumber": "Reg. No. 71/2026"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "activities": "Activities",
+    "documents": "Documents",
+    "contact": "Contact",
+    "donate": "Donate"
+  },
+  "hero": {
+    "eyebrow": "Registered Community Organisation · Reg. No. 71/2026",
+    "titleLine1": "Annapparavai",
+    "titleLine2": "Ilaignar Nalasangam",
+    "tagline": "Sevai · Otrumai · Valarchi",
+    "taglineTranslation": "Service · Unity · Growth",
+    "description": "A registered youth welfare association from S. Sankaralingapuram, Madurai District, working quietly and steadily for education, health, relief and community upliftment since our founding.",
+    "ctaPrimary": "Our Activities",
+    "ctaSecondary": "Get Involved",
+    "statBadge": "Serving the Sankaralingapuram community"
+  },
+  "about": {
+    "eyebrow": "About Us",
+    "title": "Rooted in Community, Guided by Purpose",
+    "intro": "Annapparavai Ilaignar Nalasangam is a village-level youth welfare association built on the belief that lasting change begins with people who choose to serve where they stand.",
+    "history": {
+      "title": "Our History",
+      "body": "Formed by a group of young residents of S. Sankaralingapuram who wanted to give back to their village, our association was registered under the Societies Registration framework as Reg. No. 71/2026. What began as informal volunteer efforts around local festivals and relief work has grown into a structured organisation with a standing executive committee and regular community programmes."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "body": "To organise the youth of our village towards consistent, transparent and meaningful service in education, health, environment and welfare — and to be a dependable first responder in times of local need."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "body": "A self-reliant, united and progressive village community where every resident has access to opportunity, dignity and support — carried forward by generations of committed local youth."
+    },
+    "objectives": {
+      "title": "Our Objectives",
+      "items": [
+        "Promote unity and volunteerism among the youth of S. Sankaralingapuram",
+        "Support education through scholarships, tuition support and awareness drives",
+        "Organise health camps, blood donation drives and hygiene awareness programmes",
+        "Provide relief and support during floods, disasters and personal emergencies",
+        "Preserve and celebrate Tamil culture, festivals and local traditions",
+        "Maintain full transparency in registration, finances and governance"
+      ]
+    }
+  },
+  "founders": {
+    "eyebrow": "Our Founders",
+    "title": "The People Who Started It All",
+    "description": "Annapparavai Ilaignar Nalasangam was founded by dedicated individuals who believed a small village could achieve big change through unity.",
+    "members": [
+      {
+        "name": "S. Karthikeyan",
+        "role": "Founder & President",
+        "bio": "Led the founding effort in 2026 and continues to guide the association's direction and outreach."
+      },
+      {
+        "name": "M. Selvaraj",
+        "role": "Co-Founder & Secretary",
+        "bio": "Oversees documentation, registration compliance and day-to-day coordination."
+      },
+      {
+        "name": "R. Muthu Pandi",
+        "role": "Co-Founder & Treasurer",
+        "bio": "Manages association finances and ensures transparent use of every contribution."
+      }
+    ]
+  },
+  "committee": {
+    "eyebrow": "Executive Committee",
+    "title": "Meet Our Committee Members",
+    "description": "Seventeen dedicated members guide the day-to-day work of the association across administration, outreach and programmes.",
+    "roles": [
+      "President", "Vice President", "General Secretary", "Joint Secretary",
+      "Treasurer", "Joint Treasurer", "Programme Coordinator", "Education Wing Head",
+      "Health Wing Head", "Cultural Wing Head", "Relief Wing Head", "Membership Coordinator",
+      "Public Relations Officer", "Women's Wing Coordinator", "Youth Sports Coordinator",
+      "Documentation Officer", "Executive Member"
+    ]
+  },
+  "stats": {
+    "eyebrow": "Our Impact",
+    "title": "Growing Steadily, Serving Sincerely",
+    "items": [
+      { "label": "Years of Service", "suffix": "+" },
+      { "label": "Active Members", "suffix": "+" },
+      { "label": "Community Programmes", "suffix": "+" },
+      { "label": "Families Supported", "suffix": "+" }
+    ]
+  },
+  "galleryPreview": {
+    "eyebrow": "Gallery",
+    "title": "Moments From Our Work",
+    "description": "A glimpse into our recent activities across the village and surrounding areas.",
+    "cta": "View All Activities"
+  },
+  "documents": {
+  "verifiedBadge": "Verified Organization",
+  "eyebrow": "Official Documents",
+  "title": "Government Registration Certificate",
+  "description": "Transparency and trust are at the heart of our organization. You can download our official government registration certificate below.",
+  "downloadLabel": "Download Certificate",
+  "fileSizeLabel": "File Size",
+  "items": [
+    {
+      "title": "Government NGO Registration Certificate",
+      "description": "Official government-issued registration certificate verifying the legal registration and authenticity of our organization.",
+      "size": "2.4 MB",
+      "updated": "2025"
+    }
+  ]
+},
+  "activities": {
+    "heroTitle": "Our Activities",
+    "heroDescription": "A record of the programmes, camps and community initiatives carried out by our members throughout the year.",
+    "items": [
+      { "title": "Tree Plantation Drive", "description": "Members planted saplings around the village to promote a greener environment." },
+      { "title": "Blood Donation Camp", "description": "A voluntary blood donation camp organised in partnership with the local health department." },
+      { "title": "Education Support Programme", "description": "Free tuition classes and study material distribution for underprivileged students." },
+      { "title": "Elder Care Visit", "description": "Regular visits and support provided to elderly residents of the village." },
+      { "title": "Flood Relief Distribution", "description": "Essential supplies distributed to families affected by seasonal flooding." },
+      { "title": "Cultural Festival Celebration", "description": "Traditional Tamil festival celebrated with the entire community." },
+      { "title": "Youth Sports Meet", "description": "An annual sports meet organised to encourage fitness and teamwork among youth." },
+      { "title": "Free Health Camp", "description": "General health check-up camp conducted with visiting doctors and volunteers." },
+      { "title": "Women's Empowerment Workshop", "description": "Skill-training workshop conducted for women in the community." },
+      { "title": "Village Cleanliness Drive", "description": "A community-wide clean-up initiative covering streets and public spaces." }
+    ]
+  },
+  "contact": {
+    "heroTitle": "Get in Touch",
+    "heroDescription": "Have a question, want to volunteer, or wish to support our work? We would love to hear from you.",
+    "formTitle": "Send Us a Message",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "Your name",
+      "email": "Email Address",
+      "emailPlaceholder": "you@example.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+91 00000 00000",
+      "subject": "Subject",
+      "subjectPlaceholder": "How can we help?",
+      "message": "Message",
+      "messagePlaceholder": "Write your message here...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thank you! Your message has been recorded."
+    },
+    "infoTitle": "Contact Information",
+    "address": "S. Sankaralingapuram, Saptur Post, Peraiyur Taluk, Madurai District, Tamil Nadu - 625705",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "hours": "Office Hours",
+    "hoursValue": "Mon - Sat, 9:00 AM - 6:00 PM",
+    "mapTitle": "Find Us Here"
+  },
+  "donate": {
+  "title": "Support Our Work",
+  "subtitle": "Scan & pay instantly with any UPI app",
+  "chooseAmount": "Choose an amount",
+  "custom": "Custom",
+  "customPlaceholder": "Enter amount",
+  "scanHint": "Scan this QR with Google Pay, PhonePe, Paytm or any UPI app",
+  "copy": "Copy",
+  "copied": "Copied!",
+  "payButton": "Pay {{amount}} via UPI App",
+  "thanksNote": "Every contribution directly supports our community programmes. Thank you."
+},
+  "footer": {
+    "about": "A registered youth welfare association from S. Sankaralingapuram, working for education, health, culture and community welfare.",
+    "quickLinks": "Quick Links",
+    "contactUs": "Contact Us",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved."
+  }
+}

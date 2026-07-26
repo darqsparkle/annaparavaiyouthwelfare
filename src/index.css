@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1B5E20;
+  --color-secondary: #2E7D32;
+  --color-dark: #0D4F2B;
+  --color-maroon: #8B1E1E;
+  --color-gold: #C9A227;
+  --color-bg: #F8F9F4;
+  --color-ink: #16241C;
+
+  --font-display: "Playfair Display", "Hind Madurai", serif;
+  --font-body: "Inter", "Noto Sans Tamil", sans-serif;
+
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-marquee: marquee 30s linear infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+html[lang="ta"] body {
+  font-family: "Noto Sans Tamil", "Hind Madurai", sans-serif;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+}
+
+html[lang="ta"] h1,
+html[lang="ta"] h2,
+html[lang="ta"] h3,
+html[lang="ta"] h4,
+html[lang="ta"] .font-display {
+  font-family: "Hind Madurai", "Noto Sans Tamil", serif;
+}
+
+/* Signature brand gradient text - split maroon/green, echoing the org seal */
+.brand-gradient-text {
+  background: linear-gradient(
+    to bottom,
+    #8B1E1E 0%,
+    #8B1E1E 48%,
+    #1B5E20 52%,
+    #1B5E20 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* Seal ring divider - echoes the circular logo's red-over-green ring */
+.seal-ring {
+  background: conic-gradient(
+    from 0deg,
+    #8B1E1E 0deg 180deg,
+    #1B5E20 180deg 360deg
+  );
+}
+
+::selection {
+  background: var(--color-gold);
+  color: #16241C;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--color-secondary);
+  border-radius: 8px;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
