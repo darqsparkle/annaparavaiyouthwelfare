@@ -50,12 +50,12 @@ export default function Activities() {
                   <Expand size={16} />
                 </div>
                 <div className="absolute inset-x-0 bottom-0 p-4">
-                  <p className="font-display text-sm font-semibold leading-snug text-white sm:text-base">
+                  {/* <p className="font-display text-sm font-semibold leading-snug text-white sm:text-base">
                     {item.title}
-                  </p>
-                  <p className="mt-1 hidden text-xs text-white/70 sm:line-clamp-2 sm:block">
+                  </p> */}
+                  {/* <p className="mt-1 hidden text-xs text-white/70 sm:line-clamp-2 sm:block">
                     {item.description}
-                  </p>
+                  </p> */}
                 </div>
               </motion.button>
             ))}
