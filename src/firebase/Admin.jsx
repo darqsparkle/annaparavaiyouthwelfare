@@ -18,7 +18,7 @@ import {
   uploadBytesResumable,
 } from "firebase/storage";
 import { ImagePlus, LogOut, Trash2, UploadCloud } from "lucide-react";
-import { auth, db, storage } from "../firebase/Firebase";
+import { auth, db, storage } from "./Firebase";
 
 const MAX_IMAGES = 30;
 

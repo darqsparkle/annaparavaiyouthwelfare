@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { onAuthStateChanged, signInWithEmailAndPassword } from "firebase/auth";
 import { Lock, Mail, LogIn } from "lucide-react";
-import { auth } from "../firebase/Firebase";
+import { auth } from "./Firebase";
 
 export default function Login() {
   const navigate = useNavigate();
