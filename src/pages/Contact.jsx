@@ -21,9 +21,9 @@ export default function Contact() {
 
   const socials = [
     { icon: FacebookIcon, href: "#", label: "Facebook" },
-    { icon: InstagramIcon, href: "#", label: "Instagram" },
-    { icon: YoutubeIcon, href: "#", label: "YouTube" },
-    { icon: MessageCircle, href: "#", label: "WhatsApp" },
+    { icon: InstagramIcon, href: "https://www.instagram.com/annaparavai_youthswelfare", label: "Instagram" },
+    { icon: YoutubeIcon, href: "https://www.youtube.com/@annaparavaiyouths_welfare", label: "YouTube" },
+    { icon: MessageCircle, href: "https://wa.me/919840984502", label: "WhatsApp" },
   ];
 
   return (
@@ -87,7 +87,7 @@ export default function Contact() {
             <div className="aspect-[4/3] w-full sm:aspect-video lg:h-[calc(100%-2.5rem)] lg:aspect-auto">
               <iframe
                 title="Location map"
-                src={`https://www.google.com/maps?q=${MAP_QUERY}&output=embed`}
+                src={`https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3931.925647066268!2d77.723416!3d9.772359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOcKwNDYnMjAuNSJOIDc3wrA0MycyNC4zIkU!5e0!3m2!1sen!2sin!4v1785241982055!5m2!1sen!2sin`}
                 className="h-full w-full border-0"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
