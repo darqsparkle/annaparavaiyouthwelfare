@@ -19,7 +19,7 @@ export default function MemberCard({ photo, name, role, index = 0 }) {
       </div>
       <div className="p-3 text-center">
         <h4 className="font-display text-sm font-semibold text-dark">{name}</h4>
-        {/* <p className="mt-0.5 text-[11px] font-bold uppercase tracking-wide text-maroon/80">{role}</p> */}
+        <p className="mt-0.5 text-[11px] font-bold uppercase tracking-wide text-maroon/80">{role}</p>
       </div>
     </motion.div>
   );

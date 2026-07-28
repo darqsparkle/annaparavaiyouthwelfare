@@ -1,6 +1,6 @@
 {
   "meta": {
-    "orgNameShort": "Annapparavai Ilaignar Nalasangam",
+    "orgNameShort": "Annapparavai Youth Welfare Association",
     "orgNameFull": "Annapparavai Youth Welfare Association",
     "orgTamilName": "அன்னப்பறவை இளைஞர் நலச்சங்கம்",
     "village": "S. Sankaralingapuram",
@@ -17,8 +17,8 @@
   },
   "hero": {
     "eyebrow": "Registered Community Organisation · Reg. No. 71/2026",
-    "titleLine1": "Annapparavai",
-    "titleLine2": "Ilaignar Nalasangam",
+    "titleLine1": "Annapparavai Youth Welfare Association",
+    "titleLine2": "S. Sankaralingapuram",
     "tagline": "Sevai · Otrumai · Valarchi",
     "taglineTranslation": "Service · Unity · Growth",
     "description": "A registered youth welfare association from S. Sankaralingapuram, Madurai District, working quietly and steadily for education, health, relief and community upliftment since our founding.",
@@ -27,33 +27,33 @@
     "statBadge": "Serving the Sankaralingapuram community"
   },
   "about": {
-    "eyebrow": "About Us",
-    "title": "Rooted in Community, Guided by Purpose",
-    "intro": "Annapparavai Ilaignar Nalasangam is a village-level youth welfare association built on the belief that lasting change begins with people who choose to serve where they stand.",
-    "history": {
-      "title": "Our History",
-      "body": "Formed by a group of young residents of S. Sankaralingapuram who wanted to give back to their village, our association was registered under the Societies Registration framework as Reg. No. 71/2026. What began as informal volunteer efforts around local festivals and relief work has grown into a structured organisation with a standing executive committee and regular community programmes."
-    },
-    "mission": {
-      "title": "Our Mission",
-      "body": "To organise the youth of our village towards consistent, transparent and meaningful service in education, health, environment and welfare — and to be a dependable first responder in times of local need."
-    },
-    "vision": {
-      "title": "Our Vision",
-      "body": "A self-reliant, united and progressive village community where every resident has access to opportunity, dignity and support — carried forward by generations of committed local youth."
-    },
-    "objectives": {
-      "title": "Our Objectives",
-      "items": [
-        "Promote unity and volunteerism among the youth of S. Sankaralingapuram",
-        "Support education through scholarships, tuition support and awareness drives",
-        "Organise health camps, blood donation drives and hygiene awareness programmes",
-        "Provide relief and support during floods, disasters and personal emergencies",
-        "Preserve and celebrate Tamil culture, festivals and local traditions",
-        "Maintain full transparency in registration, finances and governance"
-      ]
-    }
+  "eyebrow": "About Us",
+  "title": "Rooted in Community, Driven by Service",
+  "intro": "Annapparavai Youth Welfare Association was established with the primary objective of promoting social welfare and empowering the youth of S. Sankaralingapuram. The association was formed to strengthen unity among the villagers, encourage social responsibility among young people, and carry forward meaningful community service initiatives.",
+  "history": {
+    "title": "Our History",
+    "body": "Since its inception, the association has been continuously carrying out various community service activities such as tree plantation drives, educational awareness programmes, blood donation camps, medical camps, sports and cultural events, social service initiatives, and public welfare projects. Guided by the noble vision of 'United Youth – Prosperous Society,' our association remains committed to earning the trust of the people and implementing many more welfare programmes in the future."
   },
+  "mission": {
+    "title": "Our Mission",
+    "body": "To promote social unity and brotherhood, develop the leadership and talents of youth, create awareness on education, employment and entrepreneurship, provide assistance to the poor and underprivileged, encourage tree plantation and environmental conservation, organize blood donation camps, medical camps and welfare programmes, promote sports, arts and cultural activities, undertake welfare initiatives for women, children and senior citizens, conduct anti-drug and social awareness campaigns, provide voluntary service during natural disasters, guide people in accessing government welfare schemes, and work with the motto: 'Let Us Serve – Let Us Grow Together – Let Us Build Progress.'"
+  },
+  "vision": {
+    "title": "Our Vision",
+    "body": "To become a leading youth welfare association dedicated to social responsibility, build a society founded on unity, humanity and the spirit of service, empower youth through education, skill development and employment opportunities, serve as a model in environmental protection and sustainable development, ensure equal opportunities and welfare reach every section of society, implement sustainable rural development initiatives, grow into a respected welfare association at the district and state levels, nurture volunteers who lead positive social change, create a safe, healthy and prosperous society for future generations, and uphold the vision: 'Service is Our Identity – Progress is Our Goal.'"
+  },
+  "objectives": {
+    "title": "Our Objectives",
+    "items": [
+      "Promote unity and volunteerism among the youth of S. Sankaralingapuram",
+      "Support education through scholarships, tuition support and awareness drives",
+      "Organise health camps, blood donation drives and hygiene awareness programmes",
+      "Provide relief and support during floods, disasters and personal emergencies",
+      "Preserve and celebrate Tamil culture, festivals and local traditions",
+      "Maintain full transparency in registration, finances and governance"
+    ]
+  }
+},
   "founders": {
     "eyebrow": "Our Founders",
     "title": "The People Who Started It All",
@@ -77,17 +77,50 @@
     ]
   },
   "committee": {
-    "eyebrow": "Executive Committee",
-    "title": "Meet Our Committee Members",
-    "description": "Seventeen dedicated members guide the day-to-day work of the association across administration, outreach and programmes.",
-    "roles": [
-      "President", "Vice President", "General Secretary", "Joint Secretary",
-      "Treasurer", "Joint Treasurer", "Programme Coordinator", "Education Wing Head",
-      "Health Wing Head", "Cultural Wing Head", "Relief Wing Head", "Membership Coordinator",
-      "Public Relations Officer", "Women's Wing Coordinator", "Youth Sports Coordinator",
-      "Documentation Officer", "Executive Member"
-    ]
-  },
+  "eyebrow": "Executive Committee",
+  "title": "Meet Our Executive Committee",
+  "description": "Our Executive Committee consists of dedicated volunteers committed to strengthening the association and serving the community.",
+
+  "roles": [
+    "President",
+    "Vice President",
+    "Secretary",
+    "Joint Secretary",
+    "Treasurer",
+    "Joint Treasurer",
+    "Coordinator",
+    "Executive Committee Member",
+    "Executive Committee Member",
+    "Executive Committee Member",
+    "Executive Committee Member",
+    "Executive Committee Member",
+    "Executive Committee Member",
+    "Executive Committee Member",
+    "Executive Committee Member",
+    "Executive Committee Member",
+    "Executive Committee Member"
+  ],
+
+  "members": [
+    { "name": "M. Kalairaja" },
+    { "name": "A. Balamurugan" },
+    { "name": "K. Saravanakumar" },
+    { "name": "C. Raja" },
+    { "name": "S. Muthupandi" },
+    { "name": "K. Chinnaraja" },
+    { "name": "M. Pothiraj" },
+    { "name": "A. Abishek" },
+    { "name": "C. Karuthapandi" },
+    { "name": "K. Sureshkumar" },
+    { "name": "S. Ramar" },
+    { "name": "R. Thangapandi" },
+    { "name": "S. Lakshmanan" },
+    { "name": "K. Sakthiswaran" },
+    { "name": "R. Balpandi" },
+    { "name": "Se. Rajesh" },
+    { "name": "M. Anandraj" }
+  ]
+},
   "stats": {
     "eyebrow": "Our Impact",
     "title": "Growing Steadily, Serving Sincerely",

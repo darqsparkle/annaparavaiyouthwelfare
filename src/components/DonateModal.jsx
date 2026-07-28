@@ -7,7 +7,7 @@ import { X, Copy, Check, Smartphone, HeartHandshake } from "lucide-react";
 import logo from "../assets/logo.png";
 
 // ── Replace with your real UPI details ──────────────────────────────────
-const UPI_ID = "roovis2003@okaxis";
+const UPI_ID = "8939243699-2@ybl";
 const PAYEE_NAME = "Annapparavai Ilaignar Nalasangam";
 // ─────────────────────────────────────────────────────────────────────────
 
