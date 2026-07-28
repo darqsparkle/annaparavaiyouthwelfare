@@ -21,6 +21,8 @@ const app = initializeApp(firebaseConfig);
 // Auth, Firestore and Storage instances used across Login, Admin and Activities
 export const auth = getAuth(app);
 export const db = getFirestore(app);
+//changes
+
 export const storage = getStorage(app);
 
 export default app;
