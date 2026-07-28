@@ -138,6 +138,9 @@
     "cta": "View All Activities"
   },
   "documents": {
+    "viewLabel": "View Certificate",
+    "closeLabel": "Close",
+    "previewUnavailable": "Preview isn't available for this file type.",
   "verifiedBadge": "Verified Organization",
   "eyebrow": "Official Documents",
   "title": "Government Registration Certificate",
