@@ -61,6 +61,7 @@ export default function Hero() {
   <span className="mt-1.5 block text-primary text-3xl sm:text-3xl lg:text-3xl xl:text-3xl">
     {t("hero.titleLine2")}
   </span>
+  
 </motion.h1>
 
           <motion.p
