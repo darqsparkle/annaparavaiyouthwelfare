@@ -30,23 +30,23 @@
 // //   (photo, i) => ({ id: i + 1, photo, name: placeholderNames[i] })
 // // );
 // // Executive committee photos
-import m1 from "../assets/images/members/member-01.jpg";
-import m2 from "../assets/images/members/member-02.jpg";
-import m3 from "../assets/images/members/member-03.jpg";
-import m4 from "../assets/images/members/member-04.jpg";
-import m5 from "../assets/images/members/member-05.jpg";
-import m6 from "../assets/images/members/member-06.jpg";
-import m7 from "../assets/images/members/member-07.jpg";
-import m8 from "../assets/images/members/member-08.jpg";
-import m9 from "../assets/images/members/member-09.jpg";
-import m10 from "../assets/images/members/member-10.jpg";
-import m11 from "../assets/images/members/member-11.jpg";
-import m12 from "../assets/images/members/member-12.jpg";
-import m13 from "../assets/images/members/member-13.jpg";
-import m14 from "../assets/images/members/member-14.jpg";
-import m15 from "../assets/images/members/member-15.jpg";
-import m16 from "../assets/images/members/member-16.jpg";
-import m17 from "../assets/images/members/member-17.jpg";
+import m1 from "../assets/images/members/member-03.jpg";
+import m2 from "../assets/images/members/member-16.jpg";
+import m3 from "../assets/images/members/member-17.jpg";
+import m4 from "../assets/images/members/member-09.jpg";
+import m5 from "../assets/images/members/member-01.jpg";
+import m6 from "../assets/images/members/member-02.jpg";
+import m7 from "../assets/images/members/member-05.jpg";
+import m8 from "../assets/images/members/member-15.jpg";
+import m9 from "../assets/images/members/member-07.jpg";
+import m10 from "../assets/images/members/member-04.jpg";
+import m11 from "../assets/images/members/member-06.jpg";
+import m12 from "../assets/images/members/member-14.jpg";
+import m13 from "../assets/images/members/member-11.jpg";
+import m14 from "../assets/images/members/member-08.jpg";
+import m15 from "../assets/images/members/member-12.jpg";
+import m16 from "../assets/images/members/member-13.jpg";
+import m17 from "../assets/images/members/member-10.jpg";
 
 export const members = [
   {
@@ -88,37 +88,37 @@ export const members = [
   {
     id: 7,
     photo: m7,
-    name: "மு.போத்திராஜ்",
+    name: "மு.போத்திராஜா",
     role: "ஒருங்கிணைப்பாளர்",
   },
   {
     id: 8,
     photo: m8,
-    name: "அ.அபிஷேக்",
+    name: "மு.ஆனந்த்ராஜ்",
     role: "செயற்குழு உறுப்பினர்",
   },
   {
     id: 9,
     photo: m9,
-    name: "சி.கருத்தப்பாண்டி",
+    name: "க.சுரேஷ்குமார்",
     role: "செயற்குழு உறுப்பினர்",
   },
   {
     id: 10,
     photo: m10,
-    name: "க.சுரேஷ்குமார்",
+    name: "அ.அபிஷேக்",
     role: "செயற்குழு உறுப்பினர்",
   },
   {
     id: 11,
     photo: m11,
-    name: "சு.ராமர்",
+    name: "சி.கருத்தப்பாண்டி",
     role: "செயற்குழு உறுப்பினர்",
   },
   {
     id: 12,
     photo: m12,
-    name: "ரா.தங்கப்பாண்டி",
+    name: "செ.ராஜேஷ்",
     role: "செயற்குழு உறுப்பினர்",
   },
   {
@@ -130,25 +130,25 @@ export const members = [
   {
     id: 14,
     photo: m14,
-    name: "க.சக்திஸ்வரன்",
+    name: "சு.ராமர்",
     role: "செயற்குழு உறுப்பினர்",
   },
   {
     id: 15,
     photo: m15,
-    name: "ரா.பால்பாண்டி",
-    role: "செயற்குழு உறுப்பினர்",
+    name: "க.சக்திஸ்வரன்",
+    role: "தொழில்நுட்ப நிர்வாகி",
   },
   {
     id: 16,
     photo: m16,
-    name: "செ.ராஜேஷ்",
+    name: "ரா.பால்பாண்டி",
     role: "செயற்குழு உறுப்பினர்",
   },
   {
     id: 17,
     photo: m17,
-    name: "மு.ஆனந்த்ராஜ்",
+    name: "ரா.தங்கப்பாண்டி",
     role: "செயற்குழு உறுப்பினர்",
   },
 ];
