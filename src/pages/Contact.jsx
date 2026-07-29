@@ -20,7 +20,7 @@ export default function Contact() {
   ];
 
   const socials = [
-    { icon: FacebookIcon, href: "#", label: "Facebook" },
+    { icon: FacebookIcon, href: "https://www.facebook.com/annaparavaiyouthswelfare", label: "Facebook" },
     { icon: InstagramIcon, href: "https://www.instagram.com/annaparavai_youthswelfare", label: "Instagram" },
     { icon: YoutubeIcon, href: "https://www.youtube.com/@annaparavaiyouths_welfare", label: "YouTube" },
     { icon: MessageCircle, href: "https://wa.me/919840984502", label: "WhatsApp" },
